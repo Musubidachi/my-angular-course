@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="card-deck">
+    <app-album-card
+      [albumData]="el"
+      (albumClicked)="parentFunctionHandler($event)"
+      *ngFor="let el of albumsList"
+    ></app-album-card>
+  </div>
+</div>

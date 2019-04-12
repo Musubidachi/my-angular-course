@@ -14,4 +14,5 @@ export interface Album {
   duration: string;
   URL: string;
   tracks: Track[];
+  newPrice?: number;
 }
